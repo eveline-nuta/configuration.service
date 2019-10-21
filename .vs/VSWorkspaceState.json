@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CofigurationApi",
+    "\\CofigurationApi\\Controllers",
+    "\\CofigurationApi\\Service"
+  ],
+  "SelectedNode": "\\CofigurationApi\\Service\\ConfigurationService.cs",
+  "PreviewInSolutionExplorer": false
+}

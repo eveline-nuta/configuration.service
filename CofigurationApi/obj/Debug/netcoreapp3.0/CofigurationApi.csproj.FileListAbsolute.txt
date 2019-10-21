@@ -1,0 +1,36 @@
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.exe
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.deps.json
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.runtimeconfig.json
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.runtimeconfig.dev.json
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.dll
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.pdb
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.csprojAssemblyReference.cache
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\staticwebassets\CofigurationApi.StaticWebAssets.Manifest.cache
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\staticwebassets\CofigurationApi.StaticWebAssets.xml
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.AssemblyInfoInputs.cache
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.AssemblyInfo.cs
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.RazorTargetAssemblyInfo.cache
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.dll
+C:\Users\eveline.nuta\Source\Repos\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.pdb
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.exe
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.deps.json
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.runtimeconfig.json
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.runtimeconfig.dev.json
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.dll
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.pdb
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.csprojAssemblyReference.cache
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\staticwebassets\CofigurationApi.StaticWebAssets.Manifest.cache
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\staticwebassets\CofigurationApi.StaticWebAssets.xml
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.AssemblyInfoInputs.cache
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.AssemblyInfo.cs
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.RazorTargetAssemblyInfo.cache
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.dll
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.pdb
+C:\Users\eveline.nuta\source\repos\Final configuration service\configuration.service\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.MvcApplicationPartsAssemblyInfo.cache
