@@ -61,6 +61,9 @@ C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationA
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.csproj.CopyComplete
+C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\Microsoft.Azure.Storage.Blob.dll
+C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\Microsoft.Azure.Storage.Common.dll
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.csproj.CopyComplete
