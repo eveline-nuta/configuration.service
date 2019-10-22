@@ -20,12 +20,14 @@ namespace CofigurationApi.Controllers
             _configurationService = configurationService;
         }
 
+        /// <summary>
+        /// Gets a configuration.
+        /// </summary>
         [HttpGet]
         [Route("get/{name}/{version}")]
-        public string Get([FromBody] string name, string version)
+        public string Get()
         {
-            var result=_configurationService.GetConfiguration(name, version);
-            return result;
+            return "It works!";
         }
      
     }
