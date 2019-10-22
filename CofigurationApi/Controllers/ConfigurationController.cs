@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace CofigurationApi.Controllers
 {
     [ApiController]
-    [Route("[configuration]")]
+    [Route("configuration")]
     public class ConfigurationController : ControllerBase
     {
         private readonly ILogger<ConfigurationController> _logger;
@@ -21,7 +21,7 @@ namespace CofigurationApi.Controllers
         }
 
         [HttpGet]
-        [Route("[get/{name}/{version}]")]
+        [Route("get/{name}/{version}")]
         public string Get([FromBody] string name, string version)
         {
             var result=_configurationService.GetConfiguration(name, version);
