@@ -21,7 +21,7 @@ namespace CofigurationApi.Controllers
         }
 
         /// <summary>
-        /// Gets a configuration.
+        /// Gets a configuration based on name and version
         /// </summary>
         [HttpGet]
         [Route("get/{name}/{version}")]
