@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace CofigurationApi.Controllers
 {
     [ApiController]
-    [Route("configuration")]
+    [Route("configuration/[controller]")]
     public class ConfigurationController : ControllerBase
     {
         private readonly ILogger<ConfigurationController> _logger;
@@ -23,12 +23,14 @@ namespace CofigurationApi.Controllers
         /// <summary>
         /// Gets a configuration based on name and version
         /// </summary>
-        [HttpGet]
-        [Route("get/{name}/{version}")]
-        public string Get()
+        /// 
+        [HttpGet("/configurations/{name}/{version}")]
+        public ActionResult<IEnumerable<string>> Get(string name, string version)
         {
-            return "It works!";
+
+            return null;
+
         }
-     
+
     }
 }
