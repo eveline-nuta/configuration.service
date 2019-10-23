@@ -16,7 +16,7 @@ namespace CofigurationApi
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+         
             Console.WriteLine("Azure Blob Storage - .NET quickstart sample\n");
 
             // Run the examples asynchronously, wait for the results before proceeding
@@ -24,6 +24,8 @@ namespace CofigurationApi
 
             Console.WriteLine("Press any key to exit the sample application.");
             Console.ReadLine();
+
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -41,7 +43,7 @@ namespace CofigurationApi
             // environment variable is created after the application is launched in a 
             // console or with Visual Studio, the shell or application needs to be closed
             // and reloaded to take the environment variable into account.
-            string storageConnectionString = Environment.GetEnvironmentVariable("CONNECT_STR");
+            string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=configurationstor;AccountKey=CY1iDTXZCPdEjbQ/v8iJ/ZC/fQ8Hf/9WUWUNk0xFV86hEO99zX5FD4vqv4yiYWLR3WtCRT2W+jH1raSm5xx9xQ==;EndpointSuffix=core.windows.net";
 
             // Check whether the connection string can be parsed.
             CloudStorageAccount storageAccount;
