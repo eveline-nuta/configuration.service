@@ -1,20 +1,24 @@
-﻿using System;
+﻿using CofigurationApi.Data;
+using Microsoft.Azure.Storage;
+using Microsoft.Azure.Storage.Blob;
+using System;
+using System.Threading.Tasks;
 
 /// <summary>
 /// Summary description for Class1
 /// </summary>
 public class ConfigurationService
 {
-	public ConfigurationService()
+    private  BlobProvider _blobStorageProvider;
+
+	public ConfigurationService(BlobProvider blobStorageProvider)
 	{
-		//
-		// TODO: Add constructor logic here
-		//
+       _blobStorageProvider = blobStorageProvider;
 	}
 
-    public string GetConfiguration(string name, string version)
+    public  async Task<string> GetConfiguration(string name)
     {
-        return "use function to access blobstorage";
+        return await _blobStorageProvider.DownloadBlob(name);
     }
 
 }

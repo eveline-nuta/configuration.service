@@ -8,7 +8,6 @@ using Microsoft.Extensions.Logging;
 namespace CofigurationApi.Controllers
 {
     [ApiController]
-    [Route("configuration/[controller]")]
     public class ConfigurationController : ControllerBase
     {
         private readonly ILogger<ConfigurationController> _logger;
@@ -25,10 +24,11 @@ namespace CofigurationApi.Controllers
         /// </summary>
         /// 
         [HttpGet("/configurations/{name}/{version}")]
-        public ActionResult<IEnumerable<string>> Get(string name, string version)
+        public async Task<ActionResult<string>> Get([FromRoute]string name, [FromRoute]string version)
         {
-
-            return null;
+            string blobName = $"{name}-{version}";
+            var result = await _configurationService.GetConfiguration(blobName);
+            return new JsonResult(result);
 
         }
 

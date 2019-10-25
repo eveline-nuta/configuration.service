@@ -43,7 +43,6 @@ C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationA
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.runtimeconfig.dev.json
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.dll
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\bin\Debug\netcoreapp3.0\CofigurationApi.pdb
-C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.csprojAssemblyReference.cache
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\staticwebassets\CofigurationApi.StaticWebAssets.Manifest.cache
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\staticwebassets\CofigurationApi.StaticWebAssets.xml
 C:\Users\eveline.nuta\source\repos\githubproj\configurationservice\CofigurationApi\obj\Debug\netcoreapp3.0\CofigurationApi.AssemblyInfoInputs.cache

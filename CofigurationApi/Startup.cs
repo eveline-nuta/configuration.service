@@ -1,15 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using CofigurationApi.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace CofigurationApi
@@ -26,7 +20,7 @@ namespace CofigurationApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            ConfigureSingleton(services);
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
@@ -37,6 +31,18 @@ namespace CofigurationApi
                     Description = "First version - testing",
                 });
             });
+            services.AddControllers();
+        }
+
+        //dependency injection for service which helps controller
+        public void ConfigureSingleton(IServiceCollection services)
+        {
+            var blobStorageProvider = new BlobProvider();
+            blobStorageProvider.InitAsync().GetAwaiter().GetResult();
+
+            var configurationService = new ConfigurationService(blobStorageProvider);
+
+            services.AddSingleton(configurationService);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,7 +63,6 @@ namespace CofigurationApi
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-                c.RoutePrefix = string.Empty;
             });
 
             app.UseRouting();
